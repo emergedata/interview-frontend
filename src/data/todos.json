@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Do the thing.",
+    "details": "Need to do the thing with the whatsit."
+  },
+  {
+    "name": "Refactor to multiple components.",
+    "details": "There is too much going on in this component."
+  },
+  {
+    "name": "Add tests for the todo list and new todo form.",
+    "details": "These should be basic tests that mock the data source to let us provide test data."
+  }
+]
