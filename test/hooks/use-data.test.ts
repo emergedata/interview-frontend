@@ -1,4 +1,3 @@
-// import { renderHook, cleanup } from "@testing-library/react-hooks";
 import { vi } from "vitest";
 import { Todo } from "../../src/models/todo";
 import { cleanup, renderHook } from "@testing-library/react";
@@ -15,7 +14,7 @@ describe("useData hook test", () => {
         { name: "test todo 2", details: "test details 2" } as Todo,
       ]),
       addListener: vi.fn().mockImplementation((cb) => {
-        const unsub = () => { /* unsub logic */ };
+        const unsub = () => {};
         cb([
           { name: "test todo 1", details: "test details 1" } as Todo,
           { name: "test todo 2", details: "test details 2" } as Todo,
