@@ -23,6 +23,6 @@
     /* Types */
     "types": ["vitest/globals"]
   },
-  "include": ["src/**/*.tsx", "src/**/*/ts"],
+  "include": ["src/**/*.tsx", "src/**/*/ts", "test/**/*.test.tsx", "test/**/*.test.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
